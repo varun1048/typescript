@@ -1,1 +1,3 @@
-console.log("hi from varun");
+let varun=do
+
+console.log("hi from typescript")

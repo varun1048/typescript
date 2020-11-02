@@ -30,4 +30,13 @@ function Bick(inner : BickInterface){
 
 let customer = new BikeClass("rx100",1,"yamaha")
 
-console.log(customer)
+// console.log(customer)
+
+
+function fun(inerr:string, ...name:string[]){
+    for(let arg of name){
+        console.log(arg)
+    }
+}
+
+fun("varun","thala","varun","thalapathy","surya")
